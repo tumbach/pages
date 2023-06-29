@@ -21,7 +21,10 @@ class Visualizer {
 
     this.gradientValues = Visualizer.calculateGradient(this.gradientOptions);
     this.canvas = Visualizer.initCanvas(this.canvasElement);
-    this.canvasContext = this.canvas.getContext('2d');
+    this.bufferCanvas = Visualizer.initCanvas(document.createElement("canvas"));
+
+    this.canvasContext = this.canvas.getContext("2d");
+    this.bufferCanvasContext = this.bufferCanvas.getContext("2d");
 
     // `stepHeight` compensates losses of FPS
     this.stepHeight = Math.ceil(this.canvas.height / this.secondsToShow / this.stepsPerSecond);
@@ -110,15 +113,10 @@ class Visualizer {
   }
 
   drawCanvas(dataArray) {
-    let imageData = this.canvasContext.getImageData(
-      0,
-      0,
-      this.canvas.width,
-      this.canvas.height - this.stepHeight
-    );
-    this.canvasContext.putImageData(imageData, 0, this.stepHeight);
+    this.bufferCanvasContext.drawImage(this.canvas, 0, 0);
     this.canvasContext.fillStyle = this.gradientValues[0];
     this.canvasContext.fillRect(0, 0, this.canvas.width, this.stepHeight);
+    this.canvasContext.drawImage(this.bufferCanvas, 0, this.stepHeight);
 
     return this["drawCanvas" + this.drawingType](dataArray);
   }
