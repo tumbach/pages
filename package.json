@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "parcel */index*.html",
-    "build": "parcel build --no-content-hash --no-cache"
+    "build": "parcel build --no-content-hash --no-cache --public-url ./"
   },
   "targets": {
     "ansi": {
