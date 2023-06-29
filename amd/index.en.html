@@ -1,0 +1,39 @@
+<!--
+  -- Visualization is thoroughly tested on the Firefox ESR.
+  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Tumbach: The Courtesy Call</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+    <canvas id="yaebal" class="js"></canvas>
+    <div class="wrapper">
+        <div class="align-child card">
+            <img id="logo" src="./test.svg" width="442" />
+            <br/>
+            <br/>
+            <p>
+                We are proud to announce that Tumbach is in the closed beta!
+                At this stage Tumbach is a <a href="https://en.wikipedia.org/wiki/Minimum_viable_product" target="_blank" rel="noopener noreferrer">MVP</a>: main features are done and working properly, and features are under development.
+                We are testing the engine among a limited number of people in order to identify bugs early on. The number of testers will increase according to engine's readiness.
+                <br/>You will be notified if open beta testing opportunities become available.
+                <br/><br/>
+                Thank you for your interest in Tumbach.
+                <br/>We wish you to join us in 2023.
+                <br/>
+                <br/>
+                <span id="trigger" class="js">
+                    Click here to hear some smooth notes.<br/>
+                    Today it's Advanced Micro Devices by MASTER BOOT RECORD.
+                </span>
+            </p>
+        </div>
+        <div class="align-helper"></div>
+    </div>
+    <audio src="./amd.ogg" preload="metadata" loop></audio>
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>

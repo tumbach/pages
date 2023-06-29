@@ -1,0 +1,35 @@
+{
+  "name": "tumbach-pages",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel */index*.html",
+    "build": "parcel build --no-content-hash --no-cache"
+  },
+  "targets": {
+    "ansi": {
+      "source": [
+        "./ansi/index.html",
+        "./ansi/403.html"
+      ],
+      "distDir": "./public/ansi"
+    },
+    "amd": {
+      "source": [
+        "./amd/index.en.html",
+        "./amd/index.ru.html"
+      ],
+      "distDir": "./public/amd"
+    }
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "dependencies": {
+    "parcel": "^2.9.3",
+    "tinygradient": "^1.1.5"
+  },
+  "devDependencies": {
+    "@parcel/compressor-brotli": "^2.9.3",
+    "@parcel/compressor-gzip": "^2.9.3",
+    "@parcel/config-default": "^2.9.3",
+    "@parcel/core": "^2.9.3"
+  }
+}
