@@ -29,21 +29,21 @@ body {
     width: 0;
 }
 canvas {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
 }
 #trigger {
-    opacity: .42;
     cursor: pointer;
 }
 #logo, #trigger {
     transition: opacity .1s;
 }
 #logo:hover,
-#trigger:hover {
+#trigger:hover,
+.translucent span:hover {
     opacity: 1 !important;
 }
 p {
@@ -60,4 +60,8 @@ p a {
 .card {
     background: #0006;
     padding: 2ch;
+}
+#trigger,
+.translucent span {
+    opacity: .42;
 }

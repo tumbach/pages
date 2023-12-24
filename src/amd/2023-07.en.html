@@ -1,21 +1,18 @@
 <!--
-  -- Oh... It's you.
-  -- It's been a long time. How have you been?
-  -- I've been really busy being dead...
+  -- Visualization is thoroughly tested on the Firefox ESR.
   -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <title>Tumbach: The Courtesy Call</title>
-    <link rel="stylesheet" href="./index.css" />
-    <link rel="stylesheet" href="./snow.css" />
+    <link rel="stylesheet" href="index.css" />
 </head>
 <body>
     <canvas id="yaebal" class="js"></canvas>
     <div class="wrapper">
         <div class="align-child card">
-            <img id="logo" src="./test.svg" width="442" />
+            <img id="logo" src="test.svg" width="442" />
             <br/>
             <br/>
             <p>
@@ -25,18 +22,18 @@
                 <br/>You will be notified if open beta testing opportunities become available.
                 <br/><br/>
                 Thank you for your interest in Tumbach.
-                <br/>We wish you to join us in 2023. Happy New Year!
+                <br/>We wish you to join us in 2023.
                 <br/>
                 <br/>
                 <span id="trigger" class="js">
-                    Click here to hear some smooth revival notes.<br/>
-                    Today it's ANSI.SYS by MASTER BOOT RECORD.
+                    Click here to hear some smooth notes.<br/>
+                    Today it's Advanced Micro Devices by MASTER BOOT RECORD.
                 </span>
             </p>
         </div>
         <div class="align-helper"></div>
     </div>
-    <audio src="./ANSI.SYS.mp3" preload="metadata" loop></audio>
-    <script src="./index.js"></script>
+    <audio src="amd.ogg" preload="metadata" loop></audio>
+    <script type="module" src="js/index.js"></script>
 </body>
 </html>

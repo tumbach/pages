@@ -2,21 +2,21 @@
   "name": "tumbach-pages",
   "version": "1.0.0",
   "scripts": {
-    "start": "parcel */index*.html",
-    "build": "parcel build --no-content-hash --no-cache --public-url ./"
+    "start": "parcel ./src/**/index*.html",
+    "build": "parcel build --no-content-hash --no-cache --public-url ./src/"
   },
   "targets": {
     "ansi": {
       "source": [
-        "./ansi/index.html",
-        "./ansi/403.html"
+        "./src/ansi/index.html",
+        "./src/ansi/403.html"
       ],
       "distDir": "./public/ansi"
     },
     "amd": {
       "source": [
-        "./amd/index.en.html",
-        "./amd/index.ru.html"
+        "./src/amd/index.en.html",
+        "./src/amd/index.ru.html"
       ],
       "distDir": "./public/amd"
     }
