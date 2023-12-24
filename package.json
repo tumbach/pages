@@ -3,33 +3,40 @@
   "version": "1.0.0",
   "scripts": {
     "start": "parcel ./src/**/index*.html",
-    "build": "parcel build --no-content-hash --no-cache --public-url ./src/"
+    "build": "parcel build",
+    "update-browserslist-db": "update-browserslist-db"
   },
   "targets": {
     "ansi": {
       "source": [
         "./src/ansi/index.html",
+        "./src/ansi/2023-01.html",
         "./src/ansi/403.html"
       ],
-      "distDir": "./public/ansi"
+      "distDir": "./public/ansi",
+      "publicUrl": "."
     },
     "amd": {
       "source": [
         "./src/amd/index.en.html",
-        "./src/amd/index.ru.html"
+        "./src/amd/index.ru.html",
+        "./src/amd/2023-07.en.html",
+        "./src/amd/2023-07.ru.html"
       ],
-      "distDir": "./public/amd"
+      "distDir": "./public/amd",
+      "publicUrl": "."
     }
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "dependencies": {
-    "parcel": "^2.9.3",
+    "parcel": "^2.10.3",
     "tinygradient": "^1.1.5"
   },
   "devDependencies": {
-    "@parcel/compressor-brotli": "^2.9.3",
-    "@parcel/compressor-gzip": "^2.9.3",
-    "@parcel/config-default": "^2.9.3",
-    "@parcel/core": "^2.9.3"
+    "@parcel/compressor-brotli": "^2.10.3",
+    "@parcel/compressor-gzip": "^2.10.3",
+    "@parcel/config-default": "^2.10.3",
+    "@parcel/core": "^2.10.3",
+    "update-browserslist-db": "^1.0.13"
   }
 }

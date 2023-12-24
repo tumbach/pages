@@ -27,7 +27,9 @@ jobs:
       - name: Build
         run: |
           pnpm i
+          pnpm update-browserslist-db
           pnpm build
+          cp ./src/index.html ./public/index.html
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
