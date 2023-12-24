@@ -1,2 +1,0 @@
-@keyframes snow{0%{background-position:0 0,0 0,0 0}to{background-position:-500px 1000px,-400px 400px,-300px 300px}}body:before{content:"";opacity:.5;background:url(https://i.imgur.com/YFhfZNz.png),url(https://i.imgur.com/BPySOkm.png),url(https://i.imgur.com/2ARguPW.png) 50% fixed;width:100%;height:100%;animation:20s steps(600,end) infinite snow;position:fixed}
-/*# sourceMappingURL=index.en.ab6ae98e.css.map */
