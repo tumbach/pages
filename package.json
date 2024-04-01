@@ -2,7 +2,7 @@
   "name": "tumbach-pages",
   "version": "1.0.0",
   "scripts": {
-    "start": "parcel ./src/**/index*.html",
+    "start": "parcel ./src/**/*.html",
     "build": "parcel build",
     "update-browserslist-db": "update-browserslist-db"
   },
@@ -21,7 +21,9 @@
         "./src/amd/index.en.html",
         "./src/amd/index.ru.html",
         "./src/amd/2023-07.en.html",
-        "./src/amd/2023-07.ru.html"
+        "./src/amd/2023-07.ru.html",
+        "./src/amd/2024-01.en.html",
+        "./src/amd/2024-01.ru.html"
       ],
       "distDir": "./public/amd",
       "publicUrl": "."
@@ -29,14 +31,14 @@
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "dependencies": {
-    "parcel": "^2.10.3",
-    "tinygradient": "^1.1.5"
+    "parcel": "2.11.0",
+    "tinygradient": "1.1.5"
   },
   "devDependencies": {
-    "@parcel/compressor-brotli": "^2.10.3",
-    "@parcel/compressor-gzip": "^2.10.3",
-    "@parcel/config-default": "^2.10.3",
-    "@parcel/core": "^2.10.3",
-    "update-browserslist-db": "^1.0.13"
+    "@parcel/compressor-brotli": "2.11.0",
+    "@parcel/compressor-gzip": "2.11.0",
+    "@parcel/config-default": "2.11.0",
+    "@parcel/core": "2.11.0",
+    "update-browserslist-db": "1.0.13"
   }
 }

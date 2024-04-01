@@ -46,14 +46,14 @@ canvas {
 .translucent span:hover {
     opacity: 1 !important;
 }
-p {
+p, article {
     max-width: 52ch;
     font-family: 'PT Sans', 'Noto Sans', 'Segoe UI', Roboto, Verdana, Helvetica, Arial, sans-serif;
     color: #fff;
     text-align: justify;
     word-break: break-word;
 }
-p a {
+p a, article a {
     color: #fff;
     text-decoration: underline;
 }
