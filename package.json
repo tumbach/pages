@@ -27,6 +27,13 @@
       ],
       "distDir": "./public/amd",
       "publicUrl": "."
+    },
+    "announce": {
+      "source": [
+        "./src/announce/index.html"
+      ],
+      "distDir": "./public/announce",
+      "publicUrl": "."
     }
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
