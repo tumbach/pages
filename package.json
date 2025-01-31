@@ -31,14 +31,14 @@
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "dependencies": {
-    "parcel": "2.12.0",
+    "parcel": "2.13.3",
     "tinygradient": "1.1.5"
   },
   "devDependencies": {
-    "@parcel/compressor-brotli": "2.12.0",
-    "@parcel/compressor-gzip": "2.12.0",
-    "@parcel/config-default": "2.12.0",
-    "@parcel/core": "2.12.0",
-    "update-browserslist-db": "1.0.13"
+    "@parcel/compressor-brotli": "2.13.3",
+    "@parcel/compressor-gzip": "2.13.3",
+    "@parcel/config-default": "2.13.3",
+    "@parcel/core": "2.13.3",
+    "update-browserslist-db": "1.1.2"
   }
 }
