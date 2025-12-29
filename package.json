@@ -2,7 +2,7 @@
   "name": "tumbach-pages",
   "version": "1.0.0",
   "scripts": {
-    "start": "parcel ./src/**/*.html",
+    "start": "parcel",
     "build": "parcel build",
     "update-browserslist-db": "update-browserslist-db"
   },
@@ -38,15 +38,15 @@
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "dependencies": {
-    "parcel": "2.15.4",
+    "parcel": "2.16.3",
     "tinygradient": "1.1.5"
   },
   "devDependencies": {
-    "@parcel/compressor-brotli": "2.15.4",
-    "@parcel/compressor-gzip": "2.15.4",
-    "@parcel/config-default": "2.15.4",
-    "@parcel/core": "2.15.4",
+    "@parcel/compressor-brotli": "2.16.3",
+    "@parcel/compressor-gzip": "2.16.3",
+    "@parcel/config-default": "2.16.3",
+    "@parcel/core": "2.16.3",
     "svgo": "3.3.2",
-    "update-browserslist-db": "1.1.3"
+    "update-browserslist-db": "1.2.3"
   }
 }
