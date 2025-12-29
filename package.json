@@ -28,6 +28,14 @@
       "distDir": "./public/amd",
       "publicUrl": "."
     },
+    "anniversary": {
+      "source": [
+        "./src/anniversary/index.html",
+        "./src/anniversary/message.txt"
+      ],
+      "distDir": "./public/anniversary",
+      "publicUrl": "."
+    },
     "announce": {
       "source": [
         "./src/announce/index.html"

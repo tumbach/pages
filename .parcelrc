@@ -6,5 +6,10 @@
       "@parcel/compressor-gzip",
       "@parcel/compressor-brotli"
     ]
+  },
+  "transformers": {
+    "*.txt": [
+      "@parcel/transformer-raw"
+    ]
   }
 }

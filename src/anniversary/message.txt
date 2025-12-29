@@ -1,0 +1,44 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+1 января 2026 года Тумбачу — 10 лет.
+
+Хочу выразить признание всем тем, кто дождался, и почтить память тех, кого уже
+нет с нами. Терпение и вера в этот проект — мой главный стимул.
+
+Десять лет — путь длиннее, чем ожидалось. Обстоятельства IRL часто отодвигали
+имиджборды на второй план. Но сейчас пришло время завершить когда-то начатое.
+С тех пор многое изменилось, и сегодня Тумбач для меня — прежде всего движок,
+созданный с любовью и упорством. Работа над ним идёт практически каждый день,
+поскольку больше не осталось других способов прожить мою жизнь с пользой.
+
+В ближайшие недели (ха-ха, я не умею ставить цели и планировать) допишу движок
+и настрою инфру, и здесь заработает имиджборд. Первая версия будет базовой, но
+её хватит для полноценного общения. Со временем запилю планировавшиеся функции.
+Сейчас активно изучаю DevOps и прочие штуки, чтобы поднять это всё.
+
+Когда запустимся, сможем открыто обсудить дальнейший путь. А сейчас главное —
+открыться поскорее, чтобы наконец собраться вместе.
+
+Надеюсь, это начало нового этапа для Тумбача, без привязок к датам и пафоса.
+
+P.S.
+Да, мне тоже не нравится весь этот "грузовик едет в столб.gif", но так вышло!
+
+Рыжик <sup@tumba.ch>
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEE/xThBnJIBV2cM6t9NX9OAEiX8MUFAmlSF4cACgkQNX9OAEiX
+8MWwBg//bPcdRx1wFSFA8tt1X2PjgP0tt5pQ7OybfxKGqQPC/1OII8viFYiC4k5+
+kXdXFt2u2Vsv/kqd0Qa0uYatO3ZI3ZOFL5Qtt/RCILhddKjaoFU7hFb25Q8gHcjK
+GOvEzZ7GiPSY7JWTAbD6XhI6N4LEiPO/7Sl3TtDEKabJkQhZhZs6D9bO1zc+0fZ7
+w/ySWAHDCGjvug8Gm46BCSb+0xl4yGqL1miMPP0aQoys151fonipDDLmuQmkXUpe
+zDTFBj5A3VlGt39dHI2FdP0GEW+Bn0Y+5pIDf8tcT3kSDIS9s/NhVDQFUh9StAqA
+ijLvSAuRgEcz+xH+6rHWIGXal4lN/s0rcB2NNBHcbCTpwOfLufZNyYty3kWUr4jz
+2oDVJDcDk8/oeiHI31ygXUCpYwdNGangTzSpMzAdZvpfgpMRAFgWqkVtaQ+HdJUr
+1KalWP49e+YhKxj8BMlhYVJXWN2WtrBoToG8DYnkajZUdaoyIo0kams1XAtPXW3u
+5y+uAdiTwEF9fGrJIstquGCromf9Jbe0nFdar8pekeu6bhDkLHg+jpnkt7qLe8fH
+djuVSGsOak6II/3SpoznJOHXKJvsk/J07p3bQQRp53KeBWC5FTseGp/Ocj5Za1MR
+gJc6OJcF5t9P3MBu1tPrTkxQUDDq/mcFUOoonMAXTCeqdGKzWsM=
+=QNoo
+-----END PGP SIGNATURE-----
